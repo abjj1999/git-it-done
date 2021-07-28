@@ -39,7 +39,7 @@ var getUserRepos = function(user) {
 };
 
 //function to display the repos 
-var displayReops = function(repos, searchTerm){
+var displayRepos = function(repos, searchTerm){
     
     repoContainerEl.textContent = "";
     repoSearchTerm.textContent = searchTerm;
